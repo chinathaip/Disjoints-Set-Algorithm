@@ -21,7 +21,7 @@ public class DisjointSetAlgo {
         if(RootOfVer1!=RootOfVer2){ //if they're different, they're not connected
             //traverse the whole array change the root node
             for(int i =0;i<rootArray.length;i++){
-                if(rootArray[i]==RootOfVer2){// is connected to vertex2
+                if(rootArray[i]==RootOfVer2){// if vertex i is connected to vertex2 (have the same root)
                     //change its root to the root of vertex1
                     rootArray[i]=RootOfVer1;
                 }
