@@ -1,6 +1,6 @@
-public class DisjointSetAlgo {
+public class DisjointQuickFind {
     public int[] rootArray;
-    public DisjointSetAlgo(int size){
+    public DisjointQuickFind(int size){
         rootArray=new int[size];
         for(int i=0;i<size;i++){
             rootArray[i]=i;
