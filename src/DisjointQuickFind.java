@@ -1,4 +1,7 @@
 public class DisjointQuickFind {
+
+    //QuickFind -> find function become O(1) and union become O(n)
+    // find faster but union slower
     public int[] rootArray;
     public DisjointQuickFind(int size){
         rootArray=new int[size];
