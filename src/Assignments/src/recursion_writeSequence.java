@@ -1,3 +1,5 @@
+package Assignments.src;
+
 public class recursion_writeSequence {
     public static void main (String[] args){
         writeSeqeunce(9);
