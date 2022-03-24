@@ -1,3 +1,5 @@
+package Dota2Game.src;
+
 public class Hero {
     //missing current HP, current Mana
     String Heroname,AttackMsg;
